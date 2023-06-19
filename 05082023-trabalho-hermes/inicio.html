@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peças</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body id="inicio">
+    <h1>Sistema de Cadastro de Peças</h1>
+    <h2>Escolha o tipo de Peça para cadastrar</h2>
+
+<fieldset>
+    <form action="formulario.php" method="post">
+        <input type="radio" id="Motor" name="Peca" value="Motor">
+        <label for="Motor">Motor</label><br>
+        <input type="radio" name="Peca" id="Pneu" value="Pneu">
+        <label for="Pneu">Pneu</label><br>
+        <input type="radio" name="Peca" id="Roda" value="Roda">
+        <label for="Roda">Roda</label><br><br>
+        <input type="submit" value="Cadastrar">
+    </form>
+        
+</fieldset>
+
+
+</body>
+</html>

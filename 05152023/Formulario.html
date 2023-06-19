@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veiculo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1 align="center">Cadastro de Veiculo</h1>
+    <fieldset>
+        <form action="exibir.php" method="post">
+            <label for="Fabricante">Fabricante: </label>
+            <input type="text" id="Fabricante" name="Fabricante"><br><br>
+            <label for="Modelo">Modelo</label>
+            <input type="text" name="Modelo"><br><br>
+            <label for="ValorVeiculo">Valor do veiculo: </label>
+            <input type="number" id="ValorVeiculo" name="ValorVeiculo"><br><br>
+            <input type="radio" id="Tipo" name="Tipo" value="Particular">
+            <label for="Tipo">Particular</label><br>
+            <input type="radio" id="Tipo" name="Tipo" value="Aluguel">
+            <label for="">Aluguel</label><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </fieldset>
+</body>
+</html>

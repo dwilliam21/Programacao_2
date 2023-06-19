@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="est.css">
+
+</head>
+<body>
+    
+    <div id="cab">
+        <div><img src="univicosa_horizontal.png" alt="univicosa_horizontal" width="200px"></div>
+        <div id="titulo">
+            <h1>Página de cadastro</h1>
+        </div>
+    </div><br><br>
+
+    <fieldset>
+        <legend>Tipo:</legend>
+        <form action="Cadastro.php" method="post" id="form">
+
+                <label for="tipo">Selecione o Tipo:</label>
+                <select name="tipo" id="tipo">
+                    <option value="adm">Funcionario Administrativo</option>
+                    <option value="docente">Docente</option>
+                    <option value="discente">Discente</option>
+                </select><br><br><br>
+
+                <input type="submit" value="Próximo >>">
+
+        </form>
+    </fieldset>
+
+</body>
+</html>

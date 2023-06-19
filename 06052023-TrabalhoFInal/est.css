@@ -1,0 +1,5 @@
+#cab{display: flex; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+#titulo{align-items: center;text-align: center; width: 2000px;}
+img{padding: 10px;}
+#form{padding: 10px;}
+#form input{margin-right: 30px;}
